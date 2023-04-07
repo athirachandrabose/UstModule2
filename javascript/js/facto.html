@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> factorial </title>
+<script>
+    function fact(num)
+    {
+     if(num>1)
+      {
+        return num*fact(num-1); 
+      }
+     else
+      {
+       return 1;
+      }
+    }
+    function factorial()
+    {
+        var number=document.getElementById("number").value; 
+        var res = fact(number);
+        document.write(res);
+    }
+    </script>
+<head>
+<body>
+<input type="text" id="number" name="number"/><br/>  
+<input type="button" value="submit" onclick="factorial(number)"/>
+</body>
+</html>  

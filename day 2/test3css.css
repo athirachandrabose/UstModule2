@@ -1,0 +1,81 @@
+*{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    border-color: antiquewhite;
+    border-style: groove;
+   
+}
+
+footer{
+    
+        border-color: rgb(142, 189, 201);
+        border-style: groove;
+         
+}
+header{
+    height: 100px;
+    display: flex;/*row wise with no wrap*/
+    flex-wrap: nowrap;
+    margin: 5px;
+
+}
+header h1{
+    line-height: 100px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(168, 168, 242);
+}
+nav{
+    display: flex;
+    direction: row;
+    background-color: #f3cbcb;
+}
+a{
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(233, 37, 37);
+}
+main{
+    margin: 5px;
+    display: flex;
+    flex: auto;
+    height: max-content;
+    /* this will push the footer and accomodates more content */
+}
+
+section{
+    text-align: center;
+    height: fit-content;
+    border:rgb(205, 154, 205) ;
+    border-style: groove;
+    margin: 5px;
+}
+
+#as-left{
+    width: 25%;
+    height: fit-content;
+    border-color: rgb(170, 189, 133);
+    border-style: groove;
+}
+#as-right{
+    text-align: center;
+    width: 25%;
+    height: fit-content;
+    border-color: rgb(175, 229, 230);
+    border-style: groove;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+    background-color: #fff;
+}

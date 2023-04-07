@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data= new Array();
+        let info=["star wars",10,"$10",function math(){console.log('hello');},10,10==10];
+        console.log(info[3]);// math(){console.log('hello');}
+        // ----------------------------------------------------------------------------------
+
+        info.push("mango");
+        console.log(info);//(7) ['star wars', 10, '$10', ƒ, 10, true, 'mango']
+        // ----------------------------------------------------------------------------------
+
+        info.pop();
+        console.log(info);//['star wars', 10, '$10', ƒ, 10, true]
+        //----------------------------------------------------------------------------------
+
+        let len=info.unshift("javascript");
+        console.log("size of info="+len);//size of info=7
+        console.log(info);//unshift  insert element at index 0 (7) ['javascript', 'star wars', 10, '$10', ƒ, 10, true]
+        // ----------------------------------------------------------------------------------- 
+        
+        info.shift();//shift remove element from the beginning
+         console.log(info)//(6) ['star wars', 10, '$10', ƒ, 10, true]
+         console.log(info.length);//6
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     <style>
+        header{
+            color: rgb(27, 24, 21);
+            background-color:  rgb(243, 238, 232);
+        }
+        
+        table{
+            background-color: rgb(243, 229, 229);
+          
+        }
+        body{
+            background-color: rgb(243, 238, 232);
+           
+        }
+    </style>
+    </head>
+
+<body>
+    <header>
+        <h2 style="text-align: center;">rediff.com</h2>
+    </header>
+    <hr>
+    <main>
+        <h3 style="text-align: center;">create a rediffmail account</h3>
+        <div class="container">
+            <form name="regform"  class="mb-4"> 
+                <table align="center">
+                    <tr>
+                        <td><label for="fullname">full name</label></td>
+                        <td><input type="text" name="fullname" placeholder="enter fullname"  class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="choosemail">choose a amail</label></td>
+                        <td><input     type="email" name="choosemail" placeholder="enter email"  class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Enter Password</label></td>
+                        <td><input type="password" name="pass"  placeholder="Password" class="form-control" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="retypepass"></label>Retype password</td>
+                        <td><input type="password" name="retypepass"  placeholder=" retype Password" class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob"></label>Choose DOB</td>
+                        <td><input type="date" name="dob" class="form-control" required ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="altemail">Enter alternate email</label></td>
+                        <td><input type="email" name="altemail" class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="altemailid"  required>
+                      <label for="altemailid"> Click if you don't have an alternate ID</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile no</label></td>
+                        <td><select name="countrycode"  class="form-control" style="width: 150px;">
+                            <option value="Ind">+91 India</option>
+                            <option value="USA" >+11 USA/canada</option>
+                            <option value="UK">+44 Great Britain</option>
+                        </select>
+                        <input type="number" name="altemail" class="form-control"></td> 	
+ 
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td><input type="radio" name="gender" value="male" required >&nbsp;&nbsp;male
+                        <input type="radio" name="gender" value="female" required >&nbsp;&nbsp;female</td>
+                    </tr>
+                    <tr>
+                        <td><label for="country" >choose country</label></td>
+                        <td><select name="country" class="form-control">
+                            <option value="Ind"> India</option>
+                            <option value="usa" >USA</option>
+                            <option value="UK">Great Britain</option>
+                            <option value="aus">Australia</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">choose city</label></td>
+                        <td><select name="city"  class="form-control">
+                            <option value="tvm"> Trivandrum</option>
+                            <option value="mum" >Mumbai</option>
+                            <option value="ny">newyork</option>
+                            <option value="cal">california</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><input type="submit" value="register" class="btn btn-success" style="align-items: center;"  class="form-control">
+                        <input type="reset" value="clear" class="btn btn-danger"  class="form-control" ></td>
+                    </tr>
+                    <!-- <tr>
+                         <td>
+                            <label for="myBrowser">Choose a browser from this list:</label>
+                            <input list="browsers" id="myBrowser" name="myBrowser" />
+                            <datalist id="browsers">
+                              <option value="Chrome"></option>
+                              <option value="Firefox"></option>
+                              <option value="Opera"></option>
+                              <option value="Safari"></option>
+                              <option value="Microsoft Edge"></option>
+                            </datalist>
+                         </td>
+
+                    </tr> -->
+                    <!-- <tr>
+                        <td>
+                            <figure>
+                                <img src="D:\HTMLA\images\OIP (3).jpg"
+                                     alt="Elephant at sunset">
+                                <figcaption>yellow</figcaption>
+                            </figure>
+                        </td>
+                    </tr> -->
+                </table>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

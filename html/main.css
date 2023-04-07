@@ -1,0 +1,42 @@
+.portal{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.image{
+    
+   
+    width: 20%;
+    float:left;
+    height: 20%;
+   
+}
+.header{
+    background-color:gray;
+    text-align: center;
+    padding: 23px;
+    width: 100%;
+    height: 52px;
+    coloR:white;
+    
+}
+
+.menu {  float:left; width: 97%;  height: 60px; background-color:black;  color:white;font-size:30px ;margin-top:0px; }
+.menu ul { overflow: hidden; z-index: 1000; position: absolute; }
+.menu li a { display: block;color:white;text-align: center;font-size:22px; font-weight:bold;text-decoration: none;  padding: 10px; }
+.menu li  { float: left;list-style: none;width: 90px;  color:white;text-align:center;font-size:22px; font-weight:bold; padding: 10px; }
+.menu li a:hover  { background-color:rgb(216, 125, 141); }
+.menu li ul li a:hover{
+background:rgb(208, 128, 142); 
+}
+.navcontent{  float:left; height:500px; width:100%;  margin-top:-30px; margin-top:30px;}
+.nav { float:left; height:500px; width:20%;  background-color:gray; color:white;}
+.content { float:left; height:500px; width:80%;  background-color:rgb(76, 76, 118); color:white; text-align:center;}
+.footer{
+    background-color: rgb(17, 13, 6);
+    color:white;
+    padding: 10px;
+}
+

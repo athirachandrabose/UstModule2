@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Count capital letters in JavaScript</title>
+</head>
+<body>
+    <!-- Enter some text: <br>
+    <input type="text" id="textbox">
+    <button onclick="count()">
+
+  <br> 
+  
+  
+    // function count(){
+    //   var mytext= document.getElementById("textbox").value;
+    //   var numUpper = (mytext.match(/[A-Z]/g) || []).length;
+    //   var numLower = (mytext.match(/[a-z]/g) || []).length;
+
+    //   document.write("Count of uppercase" + numUpper);
+    //   document.write("<br>")
+    //   document.write("count of lowercase" +numLower);
+    // }-->
+    <script>
+      function countcase(word){
+          var upper=0;
+          var lower=0;
+          word1=word;
+      
+          for(var i=0;i<word.length;i++){
+              if(word1[i].toUpperCase()==word[i]) {
+                  upper=upper+1;
+              }
+              else{
+                  lower=lower+1;
+              }
+      
+          }
+      
+          document.write(upper+"<br/>");
+          document.write(lower);
+      }
+          countcase("HellOworldD");
+      </script>
+
+  </script>
+
+</body>
+</html>

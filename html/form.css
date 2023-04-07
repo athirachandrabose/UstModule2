@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+    font-size: 18px;
+   background-color:antiquewhite;
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    
+}
+th{
+    color: black;
+}
+.myalign{
+    text-align: right;
+}
+input{
+    color: rgb(10, 11, 11);
+}
